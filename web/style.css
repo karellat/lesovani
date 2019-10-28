@@ -1,31 +1,48 @@
 body{
 	width: 100%;
-	height: 580px;
-	margin: 0px;
+	margin: auto;
 	padding: 0px;
+	text-align: center;
 }
 
 div.header{
-	padding: 0px; 
-	margin: 0px;
 	position: sticky;
 	top: 0;
 	background: red;
+	z-index: 1000;
 }
+
+div.main{ 
+	background: blue;
+}
+
 div.footer{
-	background: greenyellow;
-	padding: 0px;
-	margin: 0px;
+	background: green;
 }
+
 h1 {
-	padding: 0px;
 	margin: 0px;
 }
+
 #map {
-	padding: 0px;
-	margin: 0px;
+	margin: auto;
 	height: 580px;
-	width: 100%;
+	width: 95%;
+	z-index: 100;
+}
+
+#graph { 
+	margin: auto; 
+	height: 580px;
+	width: 95%;
+	background: brown;
+}
+
+#textbox {
+	margin: auto;
+	height: 580px;
+	width: 95%;
+	background: yellow;
 }
 
 .info {
@@ -35,6 +52,7 @@ h1 {
     background: rgba(255,255,255,0.8);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px; 
+	  z-index: 100;
 } 
 
 .info h4 {
@@ -55,4 +73,3 @@ h1 {
     margin-right: 8px;
     opacity: 0.7;
 }
-
